@@ -1,6 +1,7 @@
 <template>
 <!-- untuk mendefinisikan file kita perlu template -->
 <!-- untuk membuat cetak variabel sama dengan {{}} sama seperti laravel -->
+<!-- ini menggunakan local storage ketika di refresh data yang sebelumnya di buat tidak hilang -->
     <div>
         <h2 class="text-center bg-primary text-white">{{name}} To Do List</h2>
         <div class="container-fluid p-4">
